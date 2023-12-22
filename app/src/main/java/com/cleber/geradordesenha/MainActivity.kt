@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
               "A","B","C","D","F","G",
                "H","I","J","K","L","M",
         "N","O","P","Q","R","S","T","U",
-        "V","W","X","Y","Z"
+        "V","W","X","Y","Z",
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
             val letrasAlinhatortia1 = Alfabetor.random()
             val letrasAlinhatortia2 = Alfabetor.random()
             val numero = Random.nextInt(1000..9999)
-
 
             binding.txtSenha.text = "$letrasAlinhatortia1$letrasAlinhatortia2$numero"
 
