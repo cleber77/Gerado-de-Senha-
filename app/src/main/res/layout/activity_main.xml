@@ -51,6 +51,7 @@
         android:textColor="@color/white"
         android:textSize="35sp"
         android:layout_gravity="center"
+        android:textStyle="italic"
 
         />
 
