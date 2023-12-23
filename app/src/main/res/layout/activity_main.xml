@@ -14,7 +14,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/black">
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="match_parent"
@@ -27,25 +28,14 @@
         app:lottie_loop="true"
 
         />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Gerador de Senhar"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-
-        />
-
+    
          <Button
              android:id="@+id/btGeradorSenha"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:text="Gerar Senha"
              android:layout_gravity="center"
-             android:backgroundTint="@color/orenge"
+             android:backgroundTint="@color/purple"
              android:textSize="18sp"
              android:textStyle="bold"
              android:textColor="@color/white"
@@ -58,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="35sp"
         android:layout_gravity="center"
 
